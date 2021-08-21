@@ -63,7 +63,7 @@ const total = document.getElementById('with-promo-total');
 const totalCost = document.getElementById('total-price')
 promoApply.addEventListener('click', function(){
 const reedemCode = document.getElementById('code').value
-if(reedemCode == "Stivekaku"){
+if(reedemCode == "Stevekaku"){
     
  total.innerText = totalPrice.innerText - parseInt(totalPrice.innerText) * 0.2;
 }
