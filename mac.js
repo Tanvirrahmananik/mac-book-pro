@@ -14,9 +14,7 @@ macMemory16Gb.addEventListener('click', function(){
     updateTotal();
 
 })
-function memoryPrice(type){
 
-}
 
 const macStorage256Gb = document.getElementById('storage256Gb');
 const macStorage512Gb = document.getElementById('storage512Gb');
